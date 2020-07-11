@@ -1,0 +1,31 @@
+/*
+Question Link: https://www.hackerrank.com/challenges/the-pads/problem?isFullScreen=true
+
+
+*/
+
+Query:  SELECT CONCAT(Name, '(', SUBSTR(Occupation,1,1),')') FROM OCCUPATIONS ORDER BY Name;
+        SELECT CONCAT('There are a total of ', COUNT(Occupation), ' ', LOWER(Occupation), 's.') FROM OCCUPATIONS GROUP BY Occupation ORDER BY COUNT(Occupation), Occupation;
+        
+result: 
+
+Aamina(D) 
+Ashley(P) 
+Belvet(P) 
+Britney(P) 
+Christeen(S) 
+Eve(A) 
+Jane(S) 
+Jennifer(A) 
+Jenny(S) 
+Julia(D) 
+Ketty(A) 
+Kristeen(S) 
+Maria(P) 
+Meera(P) 
+Naomi(P) 
+Priya(D) 
+Priyanka(P) 
+Samantha(A) 
+There are a total of 3 doctors. 
+There are a total of 4 actors.
