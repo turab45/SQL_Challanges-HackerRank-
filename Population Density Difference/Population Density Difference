@@ -1,0 +1,13 @@
+/*
+Question Link: https://www.hackerrank.com/challenges/population-density-difference/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen 
+
+Query the difference between the maximum and minimum populations in CITY.
+
+Input Format
+
+The CITY table is described as follows: CITY.jpg
+
+*/
+
+Query: select max(population) - min(population) from city;
+result: 4695354 
