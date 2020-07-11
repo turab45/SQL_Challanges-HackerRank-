@@ -1,0 +1,13 @@
+/*
+Question Link: https://www.hackerrank.com/challenges/average-population/problem?isFullScreen=true&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
+Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+Input Format
+
+The CITY table is described as follows: CITY.jpg
+
+*/
+
+Query: select floor(avg(population)) from city;
+result: 454250 
